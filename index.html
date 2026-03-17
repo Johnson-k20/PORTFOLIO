@@ -36,7 +36,6 @@
     <hr />
     <section id="skills">
       <h2>Skills</h2>
-
       <table border="1">
         <tr>
           <th>Skill</th>
@@ -92,19 +91,52 @@
     <hr />
     <section id="contact">
       <h2>Contact</h2>
+      <>
       <form>
-        <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" /><br /><br />
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter full name"
+          required
+        /><br /><br />
 
         <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" /><br /><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        /><br /><br />
 
         <label for="message">Message:</label><br />
-        <textarea id="message" name="message" rows="5" cols="30"></textarea
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          cols="30"
+          placeholder="Write your message here"
+          required
+        ></textarea
         ><br /><br />
 
         <button type="submit">Send</button>
       </form>
+
+      <h3>Find me online:</h3>
+      <ul>
+        <li>
+          <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/yourusername/" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li><a href="mailto:your@email.com">Email Me</a></li>
+      </ul>
     </section>
     <hr />
     <footer>

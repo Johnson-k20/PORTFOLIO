@@ -49,11 +49,19 @@ img {
   margin-bottom: 15px;
   border-radius: 5px;
 }
-video, iframe {
+.intro-pic {
+  float: right;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 0 15px 20px;
+}
+video,
+iframe {
   width: 100%;
   max-width: 560px;
-  height: 315;
-  margin-bottom: 15px;
+  height: 315px;
+  margin: 0 auto 15px;
   border-radius: 5px;
   display: block;
 }

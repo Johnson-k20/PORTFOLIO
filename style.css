@@ -49,11 +49,13 @@ img {
   margin-bottom: 15px;
   border-radius: 5px;
 }
-video iframe {
-  display: block;
-  max-width: 100%;
+video, iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315;
   margin-bottom: 15px;
   border-radius: 5px;
+  display: block;
 }
 table {
   width: 100%;
